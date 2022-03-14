@@ -2,6 +2,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 //Leet Code Link to ques https://leetcode.com/problems/fruit-into-baskets/
+//This problem is also similar to Longest Substring with K distinct Characters.here in this problem value of K is 2.
 class Solution {
     public int totalFruit(int[] fruits) {
         int res = 0, left = 0, right = 0;
